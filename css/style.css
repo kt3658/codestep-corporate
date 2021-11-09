@@ -1,0 +1,162 @@
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+.site-title {
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.site-title a {
+  color: black;
+}
+
+.site-title img {
+  width: 100px;
+}
+
+.section-title {
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.section-title::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  display: block;
+  background-color: black;
+}
+
+.section-title .en {
+  display: block;
+  font-size: 36px;
+  letter-spacing: 12px;
+}
+
+.section-title .ja {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 36px;
+}
+
+.wrapper {
+  max-width: 1032px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0 16px;
+}
+
+/* header */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+#header nav ul {
+  display: flex;
+  color: black;
+  margin-left: 30px;
+}
+
+#header nav ul li {
+  margin: 32px 0 32px 30px;
+  font-size: 14px;
+  line-height: 1.7px;
+}
+
+#header nav ul li a {
+  color: black;
+}
+
+.header-button {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  height: 80px;
+  width: 200px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.header-button:hover {
+  opacity: 0.8;
+}
+
+/* main visual */
+
+.main-visual img {
+  width: 100%;
+  height: calc(100vh - 80px);
+  object-fit: cover;
+}
+
+.main-visual {
+  margin-bottom: 120px;
+}
+
+/* news */
+
+
+
+.news-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-container li {
+  border-right: solid 1px black;
+  width: calc(100%/3);
+  padding: 10px 20px;
+}
+
+.news-container li:first-child {
+  padding-left: 0;
+}
+
+.news-container li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.news-box {
+  margin-bottom: 16px;
+
+}
+
+.news-box span {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  margin-left: 5px;
+  font-size: 12px;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+}
+
+.news-container p {
+  font-size: 16px;
+}
+
+
