@@ -346,6 +346,11 @@ body {
 .section-title {
   margin-bottom: 34px;
 }
+
+.section-title .en {
+  font-size: 28px;
+}
+
 .section-title .ja {
   margin-bottom: 24px;
 }
@@ -353,6 +358,10 @@ body {
 .header-left {
   flex-direction: column;
   align-items: flex-start;
+}
+
+.header-left li {
+  margin-right: 16px;
 }
 
 .header-button {
@@ -399,5 +408,97 @@ body {
   width: 100%;
   padding: 0 16px;
 }
-  
+
+
+#BUSINESS {
+  margin-bottom: 80px;
+}
+
+.business-container {
+  flex-direction: column;
+  padding: 0;
+  margin-top: -60px;
+}
+
+.business-left {
+  width: 100%;
+}
+
+.business-right {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.business-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.business-title {
+  text-align: left;
+}
+
+#COMPANY {
+  flex-direction: column;
+  position: static;
+  height: auto;
+}
+
+.company-info {
+  width: 100%;
+  padding: 40px 20px;
+  position: static;
+  margin-bottom: 20px;
+}
+
+.company-box {
+  width: 100%;
+  position: static;
+  padding: 0;
+}
+
+.company-list {
+  flex-direction: column;
+}
+
+.company-list dt {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.company-list dd {
+  width: 100%;
+  margin-top: 5px;
+  padding-left: 14px;
+}
+
+.company-list dd:first-of-type {
+  margin-top: 5px;
+}
+
+.company-tip {
+  margin-left: 0;
+}
+
+#footer {
+  margin-top: 20px;
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-left {
+  margin-bottom: 10px;
+}
+
+#footer .wrapper {
+  background-color: white;
+}
+
+.footer-right p {
+  padding-bottom: 10px;
+}
+
 }
